@@ -52,7 +52,7 @@ net = Net()
 
 optimizer = optim.Adam(net.parameters(), lr=0.001)
 
-EPOCHS = 3000
+EPOCHS = 128
 
 for epoch in range(EPOCHS):
     for data in train_loader: #data is a size 10 batch of labeled data
